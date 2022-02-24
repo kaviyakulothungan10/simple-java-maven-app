@@ -15,6 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'mvn -B -DskipTests clean package'
+                bat 'echo helloworld'
             }
         }
         stage('Test') {
