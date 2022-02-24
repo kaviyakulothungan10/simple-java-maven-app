@@ -9,6 +9,7 @@ import static org.junit.Assert.*;
 
 /**
  * Unit test for simple App.
+ * adding a dummy commit
  */
 public class AppTest
 {
